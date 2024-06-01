@@ -1,0 +1,12 @@
+.scrollspySite {
+  position: relative;
+  overflow: auto;
+  height: 345px;
+}
+
+.carousel-inner img {
+  max-height: 500px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
