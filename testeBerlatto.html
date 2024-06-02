@@ -28,10 +28,15 @@
                         <a href="#categorias" class="nav-link">Categorias</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Sobre Nós</a>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#contatos">
+                          Sobre Nós
+                        </button>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Contatos</a>
+                         <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                          Contatos
+                        </button>
                     </li>
                 </ul>                
             </div>
@@ -98,7 +103,7 @@
                         <a class="nav-link" id="filter-cadeira-tab" data-bs-toggle="pill" href="#filter-cadeira" role="tab" aria-controls="filter-cadeira" aria-selected="false">Cadeiras</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="filter-mouses-tab" data-bs-toggle="pill" href="#filter-mb" role="tab" aria-controls="filter-mouses" aria-selected="false">Placas-Mãe e Refrigeração</a>
+                        <a class="nav-link" id="filter-placa-tab" data-bs-toggle="pill" href="#filter-mb" role="tab" aria-controls="filter-placa" aria-selected="false">Placas-Mãe e Refrigeração</a>
                     </li>
                 </ul>
                 <div class="tab-content" id="filter-tabContent">
@@ -283,72 +288,6 @@
                                     </div>
                                     <div class="card-footer text-muted">
                                         Em estoque: 30
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 col-md-4">
-                                <div class="card mb-5">
-                                    <img src="imagens/Gigabyte%20Aoru.svg" alt="">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Gigabyte B550M Aorus Elite</h4>
-                                        <h6 class="card-subtitle mb-2 text-muted">Placa-Mãe</h6>
-                                        <p>Com os conectores NVMe PCIe 4.0 * / 3.0 x4 e PCIe 3.0 x2 M.2, as placas-mãe GIGABYTE levam os usuários a experimentar o modo NVMe ou a conectividade no modo SATA para dispositivos SSD M.2. </p>
-                                    </div>
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">Chipset B550 - AM4</li>
-                                        <li class="list-group-item">Micro ATX</li>
-                                        <li class="list-group-item"><strong>R$784,99</strong></li>
-                                    </ul>
-                                    <div class="card-body">
-                                        <a class="card-link" data-toggle="modal" data-target="#siteModal" href="#">Link do modal</a>
-                                        <a href="#" class="card-link">Link</a>
-                                    </div>
-                                    <div class="card-footer text-muted">
-                                        Em estoque: 20
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 col-md-4">
-                                <div class="card mb-5">
-                                    <img src="imagens/RogStrix%20Z790%20F%20Gaming.svg" alt="">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Asus ROG Strix Z790-F Gaming Wi-Fi</h4>
-                                        <h6 class="card-subtitle mb-2 text-muted">Placa-Mãe</h6>
-                                        <p>Por trás de seus dissipadores de calor escuros e estética pensativa, a ROG Strix Z790-F traz uma solução de energia e recursos de overclocking que levam os processadores Intel 13 th Gen Core a novos patamares.</p>
-                                    </div>
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">Chipset Z790 - LGA1700</li>
-                                        <li class="list-group-item">ATX</li>
-                                        <li class="list-group-item"><strong>R$3.199,99</strong></li>
-                                    </ul>
-                                    <div class="card-body">
-                                        <a class="card-link" data-toggle="modal" data-target="#siteModal" href="#">Link do modal</a>
-                                        <a href="#" class="card-link">Link</a>
-                                    </div>
-                                    <div class="card-footer text-muted">
-                                        Em estoque: 20
-                                    </div>
-                                </div>
-                            </div>
-                              <div class="col-sm-6 col-md-4">
-                                <div class="card mb-5">
-                                    <img src="imagens/Water%20Cooler%20NZXT%20Kraken%20X73.svg" alt="">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Nzxt Kraken 360</h4>
-                                        <h6 class="card-subtitle mb-2 text-muted">WaterCooler</h6>
-                                        <p>Obtenha resfriamento de alto desempenho, exiba um GIF animado ou uma imagem estática, monitore as métricas de desempenho do PC em tempo real, veja a música que está tocando no momento, transmita o conteúdo do navegador e muito mais.</p>
-                                    </div>
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">360mm</li>
-                                        <li class="list-group-item">Display LCD</li>
-                                        <li class="list-group-item"><strong>R$2.039,99</strong></li>
-                                    </ul>
-                                    <div class="card-body">
-                                        <a class="card-link" data-toggle="modal" data-target="#siteModal" href="#">Link do modal</a>
-                                        <a href="#" class="card-link">Link</a>
-                                    </div>
-                                    <div class="card-footer text-muted">
-                                        Em estoque: 10
                                     </div>
                                 </div>
                             </div>
@@ -665,6 +604,28 @@
                                     </div>
                                 </div>
                             </div>
+                             <div class="col-sm-6 col-md-4">
+                                <div class="card mb-5">
+                                    <img src="imagens/Suporte%20para%20Gabinete%20CPU%20Suspenso%20Ajust%C3%A1vel%20CTW200.svg" alt="">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Suporte Vertical Lian Li O11 Dynamic Pci-E 4.0 16x Preto</h4>
+                                        <h6 class="card-subtitle mb-2 text-muted">Acessório de montagem vertical de GPU para O11 Dynamic. Oferece ótimo desempenho e mostra a GPU em um novo ângulo. 
+                                            Utilização: Possibilitar o posicionamento vertical de placas de vídeo dentro do gabinete</h6>
+                                        <p>Descrição detalhada do produto.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Possibilita o posicionamento vertical de placas de vídeo dentro do gabinete</li>
+                                        <li class="list-group-item"><strong>R$ 359,99</strong></li>
+                                    </ul>
+                                    <div class="card-body">
+                                        <a class="card-link" data-toggle="modal" data-target="#siteModal" href="#">Link do modal</a>
+                                        <a href="#" class="card-link">Link</a>
+                                    </div>
+                                    <div class="card-footer text-muted">
+                                        Em estoque 5
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="tab-pane fade" id="filter-placa" role="tabpanel" aria-labelledby="filter-placa-tab">
@@ -895,6 +856,7 @@
                                     </div>
                                 </div>
                         </div>
+                        </div>
                     </div>
                        <div class="tab-pane fade" id="filter-cadeira" role="tabpanel" aria-labelledby="filter-cadeira-tab">
                         <!-- Conteúdo de cadeiras -->
@@ -903,21 +865,20 @@
                                 <div class="card mb-5">
                                     <img src="imagens/Herman%20Miller.svg" alt="">
                                     <div class="card-body">
-                                        <h4 class="card-title">cadeira 1</h4>
-                                        <h6 class="card-subtitle mb-2 text-muted">Descrição breve</h6>
-                                        <p>Descrição detalhada do produto.</p>
+                                        <h4 class="card-title">Cadeira Embody - Herman Miller </h4>
+                                        <h6 class="card-subtitle mb-2 text-muted">Cadeira Gamer</h6>
+                                        <p>E se uma cadeira pudesse fazer mais que minimizar os efeitos negativos de ficar sentado? Bill Stumpf e Jeff Weber desenharam a Embody pensando nisso. O resultado foi um marco em tecnologia de assentos ergonômicos. 
+                                            Utilização: Proporcionar conforto em longas horas de jogos ou trabalhos.</p>
                                     </div>
                                     <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">Característica 1</li>
-                                        <li class="list-group-item">Característica 2</li>
-                                        <li class="list-group-item">Característica 3</li>
+                                        <li class="list-group-item"><strong>R$ 12.248,50</strong></li>
                                     </ul>
                                     <div class="card-body">
                                         <a class="card-link" data-toggle="modal" data-target="#siteModal" href="#">Link do modal</a>
                                         <a href="#" class="card-link">Link</a>
                                     </div>
                                     <div class="card-footer text-muted">
-                                        Detalhes adicionais.
+                                        Em estoque 2
                                     </div>
                                 </div>
                             </div>
@@ -925,21 +886,22 @@
                                 <div class="card mb-5">
                                     <img src="imagens/DXRacer.svg" alt="">
                                     <div class="card-body">
-                                        <h4 class="card-title">cadeira 2</h4>
-                                        <h6 class="card-subtitle mb-2 text-muted">Descrição breve</h6>
-                                        <p>Descrição detalhada do produto.</p>
+                                        <h4 class="card-title">Cadeira Gamer Dxracer Air, ATÉ 100 kg, Giratória, Reclinável, Preta </h4>
+                                        <h6 class="card-subtitle mb-2 text-muted">Cadeira Gamer</h6>
+                                        <p>Descrição: Você procura uma cadeira gamer de alta qualidade e durabilidade? A cadeira air giratória e reclinável preta da dxracer é perfeita para você! Com materiais de excelente qualidade e design ergonômico, essa cadeira foi desenvolvida para oferecer o máximo de conforto durante longas sessões de jogos. 
+                                            Utilização: Proporcionar conforto em longas horas de jogos ou trabalhos. .</p>
                                     </div>
                                     <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">Característica 1</li>
-                                        <li class="list-group-item">Característica 2</li>
-                                        <li class="list-group-item">Característica 3</li>
+                                        <li class="list-group-item">Reclinável</li>
+                                        <li class="list-group-item">Cadeira giratória</li>
+                                        <li class="list-group-item"><strong>R$ 2.855,90</strong></li>
                                     </ul>
                                     <div class="card-body">
                                         <a class="card-link" data-toggle="modal" data-target="#siteModal" href="#">Link do modal</a>
                                         <a href="#" class="card-link">Link</a>
                                     </div>
                                     <div class="card-footer text-muted">
-                                        Detalhes adicionais.
+                                        Em estoque 10
                                     </div>
                                 </div>
                             </div>
@@ -947,43 +909,93 @@
                                 <div class="card mb-5">
                                     <img src="imagens/Secretlab.svg" alt="">
                                     <div class="card-body">
-                                        <h4 class="card-title">cadeira 3</h4>
-                                        <h6 class="card-subtitle mb-2 text-muted">Descrição breve</h6>
-                                        <p>Descrição detalhada do produto.</p>
+                                        <h4 class="card-title">Secretlab Cadeira de jogos Stealth Titan Evo 2022 </h4>
+                                        <h6 class="card-subtitle mb-2 text-muted">Cadeira Gamer</h6>
+                                        <p>Conforto o dia todo para trabalhar e brincar – Cadeira de policarbonato feita de espuma de cura a frio para postura ideal, vem com travesseiro de cabeça de espuma de memória magnética que pode ser ajustado em uma ampla gama e se encaixa no lugar no seu encosto, proporcionando maior suporte de pescoço e alívio de pressão</p>
                                     </div>
                                     <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">Característica 1</li>
-                                        <li class="list-group-item">Característica 2</li>
-                                        <li class="list-group-item">Característica 3</li>
+                                        <li class="list-group-item">Policarbonato</li>
+                                        <li class="list-group-item"><strong>R$ 599,99</strong></li>
                                     </ul>
                                     <div class="card-body">
                                         <a class="card-link" data-toggle="modal" data-target="#siteModal" href="#">Link do modal</a>
                                         <a href="#" class="card-link">Link</a>
                                     </div>
                                     <div class="card-footer text-muted">
-                                        Detalhes adicionais.
+                                        Em estoque: 3
                                     </div>
                                 </div>
                             </div>
-                              <div class="col-sm-6 col-md-4">
+                         
+                          
+                        </div>
+                    </div>
+                        <div class="tab-pane fade" id="filter-mb" role="tabpanel" aria-labelledby="filter-placa-tab">
+                        <!-- Conteúdo de placas mãe  -->
+                        <div class="row">
+                             <div class="col-sm-6 col-md-4">
                                 <div class="card mb-5">
-                                    <img src="imagens/Suporte%20para%20Gabinete%20CPU%20Suspenso%20Ajust%C3%A1vel%20CTW200.svg" alt="">
+                                    <img src="imagens/Gigabyte%20Aoru.svg" alt="">
                                     <div class="card-body">
-                                        <h4 class="card-title">cadeira 3</h4>
-                                        <h6 class="card-subtitle mb-2 text-muted">Descrição breve</h6>
-                                        <p>Descrição detalhada do produto.</p>
+                                        <h4 class="card-title">Gigabyte B550M Aorus Elite</h4>
+                                        <h6 class="card-subtitle mb-2 text-muted">Placa-Mãe</h6>
+                                        <p>Com os conectores NVMe PCIe 4.0 * / 3.0 x4 e PCIe 3.0 x2 M.2, as placas-mãe GIGABYTE levam os usuários a experimentar o modo NVMe ou a conectividade no modo SATA para dispositivos SSD M.2. </p>
                                     </div>
                                     <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">Característica 1</li>
-                                        <li class="list-group-item">Característica 2</li>
-                                        <li class="list-group-item">Característica 3</li>
+                                        <li class="list-group-item">Chipset B550 - AM4</li>
+                                        <li class="list-group-item">Micro ATX</li>
+                                        <li class="list-group-item"><strong>R$784,99</strong></li>
                                     </ul>
                                     <div class="card-body">
                                         <a class="card-link" data-toggle="modal" data-target="#siteModal" href="#">Link do modal</a>
                                         <a href="#" class="card-link">Link</a>
                                     </div>
                                     <div class="card-footer text-muted">
-                                        Detalhes adicionais.
+                                        Em estoque: 20
+                                    </div>
+                                </div>
+                            </div>
+                                 <div class="col-sm-6 col-md-4">
+                                <div class="card mb-5">
+                                    <img src="imagens/RogStrix%20Z790%20F%20Gaming.svg" alt="">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Asus ROG Strix Z790-F Gaming Wi-Fi</h4>
+                                        <h6 class="card-subtitle mb-2 text-muted">Placa-Mãe</h6>
+                                        <p>Por trás de seus dissipadores de calor escuros e estética pensativa, a ROG Strix Z790-F traz uma solução de energia e recursos de overclocking que levam os processadores Intel 13 th Gen Core a novos patamares.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Chipset Z790 - LGA1700</li>
+                                        <li class="list-group-item">ATX</li>
+                                        <li class="list-group-item"><strong>R$3.199,99</strong></li>
+                                    </ul>
+                                    <div class="card-body">
+                                        <a class="card-link" data-toggle="modal" data-target="#siteModal" href="#">Link do modal</a>
+                                        <a href="#" class="card-link">Link</a>
+                                    </div>
+                                    <div class="card-footer text-muted">
+                                        Em estoque: 20
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4">
+                                <div class="card mb-5">
+                                    <img src="imagens/Water%20Cooler%20NZXT%20Kraken%20X73.svg" alt="">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Nzxt Kraken 360</h4>
+                                        <h6 class="card-subtitle mb-2 text-muted">WaterCooler</h6>
+                                        <p>Obtenha resfriamento de alto desempenho, exiba um GIF animado ou uma imagem estática, monitore as métricas de desempenho do PC em tempo real, veja a música que está tocando no momento, transmita o conteúdo do navegador e muito mais.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">360mm</li>
+                                        <li class="list-group-item">Display LCD</li>
+                                        <li class="list-group-item"><strong>R$2.039,99</strong></li>
+                                    </ul>
+                                    <div class="card-body">
+                                        <a class="card-link" data-toggle="modal" data-target="#siteModal" href="#">Link do modal</a>
+                                        <a href="#" class="card-link">Link</a>
+                                    </div>
+                                    <div class="card-footer text-muted">
+                                        Em estoque: 10
                                     </div>
                                 </div>
                             </div>
@@ -996,25 +1008,42 @@
         </div>
         <!-- fim do card deck -->
     </div>
-        <!-- MODAL -->
-    <div class="modal fade" id="siteModal" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Lorem ipsum dolor</h5>
-                    <button type="button" class="close" data-dismiss="modal">
-                        <span>&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt volutpat dolor, commodo commodo nisi semper blandit. In accumsan turpis eu mauris porttitor iaculis. Phasellus condimentum quis neque a maximus. Etiam a ipsum auctor, varius eros vitae, iaculis risus. Morbi nec tristique arcu, sed placerat augue. Suspendisse potenti. Nam dolor leo, tempor sit amet orci quis, dictum vulputate felis. In tempor ligula vel tincidunt egestas. In nunc sapien, imperdiet ac varius vel, dictum et arcu. Morbi porttitor neque ut eros laoreet tristique. Mauris eleifend cursus vestibulum.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
-                </div>
-            </div>
-        </div>
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary">Entendi</button>
+      </div>
     </div>
+  </div>
+</div>
+    <!--modal contatos-->
+    <div class="modal fade" id="contatos" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary">Entendi</button>
+      </div>
+    </div>
+  </div>
+</div>
 
     <!-- jQuery, Popper.js, and Bootstrap JS -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
